@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10% 0 10%;
+  background-color: #1f2937;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.logo i {
+}
+.nav ul {
+  display: flex;
+}
+.nav li,
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style: none;
+}
+.nav a {
+  border-right: 1px solid #e5e7eb;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+/* Hero */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(133, 0, 0), rgb(66, 22, 22));
+
+  color: #f9faf8;
+  background-size: cover;
+  padding: 10% 10%;
+}
+.hero-text {
+  width: 45%;
+}
+.hero-text h1 {
+  font-size: 48px;
+}
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px 0 20px 0;
+}
+.button {
+  background-color: #3882f6;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.hero-section img {
+  width: 50%;
+  background-color: #e5e7eb;
+  border-radius: 5px;
+}
+/* Galery */
+
+.galery-section {
+  color: #1f2937;
+  padding: 5% 10%;
+}
+.galery-section h2 {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image-container {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+.image-container img {
+  /*   border: 2px solid rgb(133, 0, 0);
+ */
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* Quote */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 5% 20%;
+}
+.quote-section q {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-section cite {
+  display: block;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Sign */
+
+.sign-section {
+  padding: 5% 10%;
+}
+.sign-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  padding: 5%;
+  border-radius: 5px;
+  align-items: center;
+}
+.sign-text {
+  color: #f9faf8;
+}
+.sign-text p {
+  color: #e5e7eb;
+}
+.sign-section .button {
+  border: 1px solid #fff;
+}
+/* Footer */
+footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: center;
+  padding: 5%;
+}
