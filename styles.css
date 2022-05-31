@@ -10,9 +10,8 @@ body {
 
 /* Header */
 header {
-  margin: auto;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px 10% 0 10%;
   background-color: #1f2937;
@@ -20,8 +19,6 @@ header {
 .logo {
   font-size: 24px;
   color: #f9faf8;
-}
-.logo i {
 }
 .nav ul {
   display: flex;
@@ -41,7 +38,9 @@ a {
 /* Hero */
 .hero-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
   background-image: linear-gradient(rgb(133, 0, 0), rgb(66, 22, 22));
 
   color: #f9faf8;
@@ -49,7 +48,7 @@ a {
   padding: 10% 10%;
 }
 .hero-text {
-  width: 45%;
+  width: 50%;
 }
 .hero-text h1 {
   font-size: 48px;
@@ -66,7 +65,7 @@ a {
   padding: 5px 20px;
 }
 .hero-section img {
-  width: 50%;
+  width: 400px;
   background-color: #e5e7eb;
   border-radius: 5px;
 }
@@ -84,7 +83,9 @@ a {
 }
 .images-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .image-container {
   width: 150px;
@@ -119,14 +120,15 @@ a {
 
 /* Sign */
 
-.sign-section {
-  padding: 5% 10%;
-}
 .sign-container {
+  width: 60%;
+  padding: 30px;
+  margin: 5% auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
   background-color: #3882f6;
-  padding: 5%;
   border-radius: 5px;
   align-items: center;
 }
